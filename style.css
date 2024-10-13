@@ -70,6 +70,7 @@ a{
 }
 .login p, .signup p{
     font-size: 1vw;
+    color: #fff;
 }
 .login:hover, .signup:hover{
     background-color: #fff;
