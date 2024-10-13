@@ -18,7 +18,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center; 
-    color: #444;
+    color: #2e2c2c;
 }
 
 .loginbox{
@@ -66,13 +66,9 @@ body{
 .emailcon, .passcon{
     display: flex;
     align-items:center ;
-    border: 2px solid #3f51b5;
     width: 100%;
     justify-content: space-between;
     padding: 10px;
-}
-.emailcon:hover, .passcon:hover {
-    border-color: #1e88e5;
 }
 
 
@@ -82,12 +78,14 @@ body{
     padding-top: 15px; */
     font-weight: 500;
     color: #555;
+    padding-left: 2.5%;
 }
 
 .remsec{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    margin-left: 1.5%;
 }
 
 
@@ -131,3 +129,32 @@ a:hover{
     justify-content: center;
     margin-top: 15px;
 }
+.emailcon input, .passcon input{
+    width: 100%;
+    height: 5vh;
+    border: 2px solid #3f51b5;
+
+
+}
+.emailcon input:hover, .passcon input:hover {
+    border-color: #1e88e5;
+}
+
+
+.emailcon i, .passcon i{
+    margin-left: 3%;
+    font-weight: 800;
+}
+
+.loginline{
+    width: 40%;
+    height: 0.2vh;
+    background-color: #3f51b5;
+    border: none;
+    
+}
+
+input{
+    padding-left:7px;
+}
+

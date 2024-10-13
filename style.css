@@ -74,6 +74,10 @@ a{
 }
 .login:hover, .signup:hover{
     background-color: #fff;
+    cursor: pointer;
+}
+.login p:hover, .signup p:hover{
+   
     color: darkblue;
     cursor: pointer;
 }

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+body{   
+    width: 100%;
+    height: 100vh;
+    background-color: #e2e2e2 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    color: #2e2c2c;
+}
+
+.rbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+    width: 40%;
+    height: auto;   
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+ 
+}
+.register{
+    /* background-color: blue; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    
+    
+}
+
+.login h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #3f51b5;
+    font-size: 2.5vw;
+}
+.content{
+    width: 100%;
+    padding: 8%;
+    height: auto;
+
+}
+.email, .pass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+.emailcon, .passcon{
+    display: flex;
+    align-items:center ;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.email p, .pass p{
+    font-size: 1.2vw;
+    /* padding-left: 10px;
+    padding-top: 15px; */
+    font-weight: 500;
+    color: #555;
+    padding-left: 2.5%;
+}
+
+.remsec{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 2%;
+}
+
+
+.registerbtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.registerbtn button{
+    width: 85%;
+    height: 5vh;
+    border: none;
+    border-radius: 1rem;
+    margin: 3% 0;
+    font-size: 1.1vw;
+    font-weight: 600;
+    background-color: #3f51b5;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #3f51b5;
+}
+a:hover{
+    color: #1e88e5;
+
+}
+.registerbtn button:hover{
+
+    cursor: pointer;
+    background-color: #1e88e5;
+    transform: translateY(-2px);
+
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.emailcon input, .passcon input{
+    width: 100%;
+    height: 5vh;
+    border: 2px solid #3f51b5;
+
+
+}
+.emailcon input:hover, .passcon input:hover {
+    border-color: #1e88e5;
+}
+
+
+.emailcon i, .passcon i{
+    margin-left: 3%;
+    font-weight: 800;
+}
+
+.registerline{
+    width: 40%;
+    height: 0.2vh;
+    background-color: #3f51b5;
+    border: none;
+    
+}
+
+
+.name{
+    display: flex;
+
+}
+
+
+.name{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+.fname{
+    width: 50%;
+    height: auto;
+    /* background-color: #3f51b5; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 4.5%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #555;
+}
+.lname{
+    width: 50%;
+    height: auto;
+    /* background-color: #b3bbed; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 4.5%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #555;
+
+}
+
+input{
+    padding-left:7px;
+}
+.fname input{
+    width: 100%;
+    height: 5vh;
+    border: 2px solid #3f51b5;
+   
+}
+.lname input{
+    width: 77%;
+    height: 5vh;
+    border: 2px solid #3f51b5;
+
+}
+
+
+
+.fname input:hover, .lname input:hover {
+    border-color: #1e88e5;
+}
+
+.directlogin{
+    width: 30%;
+    height: 20vh;
+    background-color: aqua;
+
+
+}
