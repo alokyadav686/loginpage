@@ -35,22 +35,45 @@ body{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
  
 }
+.logintop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 .login{
     /* background-color: blue; */
-    width: 100%;
+    width: 80%;
     height: 10vh;
     display: flex;
     align-items: center;    
     justify-content: center;
+    margin-left: 10%;
     
     
 }
+.crossbtn{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+    .crossbtn i{
+    font-size: 2vw;
+    
+
+}
+
 
 .login h2{
     font-family: 'Times New Roman', Times, serif;
     color: #3f51b5;
     font-size: 2.5vw;
 }
+
 .content{
     width: 100%;
     padding: 8%;
@@ -158,3 +181,6 @@ input{
     padding-left:7px;
 }
 
+.crossbtn a{
+    color: #555;
+}

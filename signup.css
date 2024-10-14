@@ -35,16 +35,40 @@ body{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
  
 }
+
+.registertop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
 .register{
     /* background-color: blue; */
-    width: 100%;
+    width: 70%;
     height: 10vh;
     display: flex;
     align-items: center;    
     justify-content: center;
-    
+    margin-left: 10%;
     
 }
+.crossbtn{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.crossbtn i{
+    font-size: 2vw;
+    
+
+}
+
 
 .login h2{
     font-family: 'Times New Roman', Times, serif;
@@ -151,13 +175,8 @@ a:hover{
     height: 0.2vh;
     background-color: #3f51b5;
     border: none;
+    margin-right: 10%;
     
-}
-
-
-.name{
-    display: flex;
-
 }
 
 
@@ -215,11 +234,6 @@ input{
 .fname input:hover, .lname input:hover {
     border-color: #1e88e5;
 }
-
-.directlogin{
-    width: 30%;
-    height: 20vh;
-    background-color: aqua;
-
-
+.crossbtn a{
+    color: #555;
 }
