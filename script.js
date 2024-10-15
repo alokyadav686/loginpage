@@ -30,6 +30,7 @@ next.addEventListener("click", ()=>{
         counter=-1
     }
     
+   
 })
 previous.addEventListener("click", ()=>{
     
@@ -41,3 +42,10 @@ previous.addEventListener("click", ()=>{
     }
     
 })
+
+
+setInterval(() => {
+    next.click();
+
+}, 4000);
+
