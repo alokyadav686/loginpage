@@ -92,6 +92,8 @@ body{
     width: 100%;
     justify-content: space-between;
     padding: 10px;
+    /* border: 2px solid #3f51b5;  */
+    position: relative;
 }
 
 
@@ -117,7 +119,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 .loginbtn button{
     width: 85%;
@@ -136,7 +138,7 @@ a{
 }
 a:hover{
     color: #1e88e5;
-
+    
 }
 .loginbtn button:hover{
 
@@ -156,8 +158,11 @@ a:hover{
     width: 100%;
     height: 5vh;
     border: 2px solid #3f51b5;
-
-
+    outline: none;
+    font-size: 1.2vw;
+    /* border: none; */
+    
+    
 }
 .emailcon input:hover, .passcon input:hover {
     border-color: #1e88e5;
@@ -167,6 +172,18 @@ a:hover{
 .emailcon i, .passcon i{
     margin-left: 3%;
     font-weight: 800;
+    position: absolute;
+    left: 85%;
+    
+}
+
+.passcon i{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.passcon i:hover{
+    transform: translateY(-2px);
 }
 
 .loginline{
@@ -184,6 +201,7 @@ input{
 .crossbtn a{
     color: #555;
 }
-/* .hide{
+
+.hide{
     display: none;
-} */
+}
