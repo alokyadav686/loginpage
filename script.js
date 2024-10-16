@@ -2,6 +2,8 @@ let cimg = document.querySelectorAll(".andar")
 let next = document.querySelector(".btnright")
 let previous = document.querySelector(".btnleft")
 
+let allstars =document.querySelectorAll(".stars i")
+
 
 let counter=0
 
@@ -49,3 +51,20 @@ setInterval(() => {
 
 }, 4000);
 
+
+allstars.forEach((faStar, i) =>{
+
+    // console.log(faStar)
+    // console.log(allstars[i])
+    // console.log(i)
+
+    faStar.addEventListener("click", ()=>{
+        console.log(i)
+        const n=i
+        for (i=0;i<=n;i++){
+            
+        }
+
+    })
+
+})

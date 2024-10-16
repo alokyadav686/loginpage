@@ -13,7 +13,12 @@ let checkbox = document.querySelector("#cbox")
 
 let register =document.querySelector(".registerbtn")
 
+let pshow = document.querySelector(".pmatch")
 
+let passstrength = document.querySelector(".passstrength")
+
+
+let passtap= document.querySelector(".passcon input")
 
 
 passwords.forEach((password,id) =>{
@@ -63,15 +68,17 @@ else{
 
 const equalpass =()=>{
     
-    if(b.value!= c.value){
-        alert("Password dont match!!")
+    if(b.value!== c.value){
+        // alert("Password dont match!!")
+        pshow.classList.remove("hide")
         b.style.border ="2px solid red"
         c.style.border ="2px solid red"
-        
+        return false
     }
     else{
         b.style.border =""
         c.style.border =""
+        pshow.classList.add("hide")
         return true
     }
     
@@ -92,7 +99,42 @@ register.addEventListener("click", ()=>{
     equalpass()
     checkbtn()
 
-        // if(data() && equalpass()&&checkbox()){
-        //     console.log("everything is good")
-        // }
+
+})
+
+register.addEventListener("click", () => {
+    if(data() && equalpass() && checkbtn()) {
+        console.log("everything is good");
+        
+    }
+});
+
+passtap.addEventListener("mousemove", ()=>{
+
+    const lengthofpass = b.value.length;
+
+    if(lengthofpass <=2  ){
+    passstrength.classList.remove("hide")
+    passstrength.style.color ="green"
+    passstrength.innerText ="Password Strength : weak"
+}
+else if(lengthofpass<=6){
+    passstrength.classList.remove("hide")
+    passstrength.style.color ="yellow"
+    passstrength.innerText ="Password Strength : medium"
+    
+}
+else{
+    passstrength.classList.remove("hide")
+    passstrength.style.color ="red"
+    passstrength.innerText ="Password Strength : hard   "
+    
+
+    }
+
+})
+
+passtap.addEventListener("mouseleave", ()=>{
+
+    passstrength.classList.add("hide")
 })

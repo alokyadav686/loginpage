@@ -94,6 +94,7 @@ body{
     justify-content: space-between;
     padding: 10px;
     position: relative;
+    flex-direction: column;
 }
 
 
@@ -172,6 +173,7 @@ a:hover{
     margin-left: 3%;
     font-weight: 800;
     position: absolute;
+    margin-top: 2%;
     left: 87%;
 }
 .passcon i{
@@ -253,4 +255,19 @@ input{
 }
 .crossbtn a{
     color: #555;
+}
+
+.passcon p{
+    font-size: 0.8rem;
+    color: red;
+}
+.hide{
+    display: none;
+}   
+
+.passstrength{
+    color: red;
+    font-size: 0.8rem;
+    margin-bottom: 0;   
+    
 }
