@@ -7,6 +7,11 @@ let allstars2 =document.querySelectorAll(".stars2 i")
 let allstars3 =document.querySelectorAll(".stars3 i")
 let allstars4 =document.querySelectorAll(".stars4 i")
 
+let review1 =document.querySelector(".review1")
+let review2 =document.querySelector(".review2")
+let review3 =document.querySelector(".review3")
+let review4 =document.querySelector(".review4")
+
 
 let counter=0
 
@@ -59,6 +64,7 @@ allstars1.forEach((faStar, i) =>{
 
     faStar.addEventListener("click", ()=>{
         console.log(i)
+        review1.classList.remove("hide")
         const n=allstars1.length
         for (j=0;j<n;j++){
             if(j<=i){
@@ -81,6 +87,7 @@ allstars2.forEach((faStar, i) =>{
 
     faStar.addEventListener("click", ()=>{
         console.log(i)
+        review2.classList.remove("hide")
         const n=allstars2.length
         for (j=0;j<n;j++){
             if(j<=i){
@@ -105,6 +112,7 @@ allstars3.forEach((faStar, i) =>{
 
     faStar.addEventListener("click", ()=>{
         console.log(i)
+        review3.classList.remove("hide")
         const n=allstars3.length
         for (j=0;j<n;j++){
             if(j<=i){
@@ -128,6 +136,7 @@ allstars4.forEach((faStar, i) =>{
 
     faStar.addEventListener("click", ()=>{
         console.log(i)
+        review4.classList.remove("hide")
         const n=allstars4.length
         for (j=0;j<n;j++){
             if(j<=i){
