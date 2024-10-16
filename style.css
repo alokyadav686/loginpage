@@ -6,6 +6,10 @@
     color: #fff;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{   
     width: 100%;
     background-color: #864DC5;
@@ -148,7 +152,7 @@ i{
     color: white;
 }
 
-.section3{
+#section3{
 
     width: 100%;
     height: 100vh;
@@ -229,17 +233,17 @@ height: 10%;
     flex-direction: column;
 }
 
-.stars{
+.stars1,.stars2,.stars3 ,.stars4{
     display: flex;
     justify-content:center ;
     
 }
 
-.stars i{
+.stars1 i, .stars2 i, .stars3 i, .stars4 i{
     user-select: none;
     /* margin: 0.1% auto; */
     font-size: 2vw;
 }
-.stars i:hover{
+.stars1 i:hover , .stars3 i:hover , .stars2 i:hover , .stars4 i:hover{
     color: yellow;
 }
