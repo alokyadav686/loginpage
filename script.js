@@ -54,24 +54,23 @@ setInterval(() => {
 
 }, 4000);
 
-
-
 allstars1.forEach((faStar, i) =>{
 
-    // console.log(faStar)
-    // console.log(allstars[i])
-    // console.log(i)
 
     faStar.addEventListener("click", ()=>{
         console.log(i)
-        const n=i
-        for (i=0;i<=n;i++){
-            if(i<=n){
+        const n=allstars1.length
+        for (j=0;j<n;j++){
+            if(j<=i){
 
-                allstars1[i].style.color="yellow"
+                allstars1[j].style.color="yellow"
+            }
+            else{
+                allstars1[j].style.color="white"
             }
 
         }
+
 
     })
 
@@ -79,63 +78,70 @@ allstars1.forEach((faStar, i) =>{
 
 allstars2.forEach((faStar, i) =>{
 
-    // console.log(faStar)
-    // console.log(allstars[i])
-    // console.log(i)
 
     faStar.addEventListener("click", ()=>{
         console.log(i)
-        const n=i
-        for (i=0;i<=n;i++){
-            if(i<=n){
+        const n=allstars2.length
+        for (j=0;j<n;j++){
+            if(j<=i){
 
-                allstars2[i].style.color="yellow"
+                allstars2[j].style.color="yellow"
+            }
+            else{
+                allstars2[j].style.color="white"
             }
 
         }
 
+
     })
 
 })
+
+
 
 allstars3.forEach((faStar, i) =>{
 
-    // console.log(faStar)
-    // console.log(allstars[i])
-    // console.log(i)
 
     faStar.addEventListener("click", ()=>{
         console.log(i)
-        const n=i
-        for (i=0;i<=n;i++){
-            if(i<=n){
+        const n=allstars3.length
+        for (j=0;j<n;j++){
+            if(j<=i){
 
-                allstars3[i].style.color="yellow"
+                allstars3[j].style.color="yellow"
+            }
+            else{
+                allstars3[j].style.color="white"
             }
 
         }
 
+
     })
 
 })
+
 
 allstars4.forEach((faStar, i) =>{
 
-    // console.log(faStar)
-    // console.log(allstars[i])
-    // console.log(i)
 
     faStar.addEventListener("click", ()=>{
         console.log(i)
-        const n=i
-        for (i=0;i<=n;i++){
-            if(i<=n){
+        const n=allstars4.length
+        for (j=0;j<n;j++){
+            if(j<=i){
 
-                allstars4[i].style.color="yellow"
+                allstars4[j].style.color="yellow"
+            }
+            else{
+                allstars4[j].style.color="white"
             }
 
         }
 
+
     })
 
 })
+
