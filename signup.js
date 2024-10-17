@@ -20,6 +20,8 @@ let passstrength = document.querySelector(".passstrength")
 
 let passtap= document.querySelector(".passcon input")
 
+let emailError = document.querySelector(".ematch")
+
 
 passwords.forEach((password,id) =>{
 
@@ -93,12 +95,27 @@ const checkbtn =()=>{
         
     }
 }
+
+
+const emailVal = (a) => {
+
+    if (a.value.indexOf('@') <= 0 || a.value.indexOf('.') <= a.value.indexOf('@') + 1 ||a.value.indexOf(".")>=a.value.length-1) {
+        emailError.classList.remove("hide")
+        return false
+    }
+    else{
+        emailError.classList.add("hide")
+        return true
+    }
+};
+
+
 register.addEventListener("click", ()=>{
 
     data()
     equalpass()
     checkbtn()
-
+    emailVal(a)
 
 })
 
@@ -138,3 +155,6 @@ passtap.addEventListener("mouseleave", ()=>{
 
     passstrength.classList.add("hide")
 })
+
+
+

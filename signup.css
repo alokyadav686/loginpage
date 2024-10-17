@@ -271,3 +271,7 @@ input{
     margin-bottom: 0;   
     
 }
+.emailcon p{
+    color: red;
+    font-size: 0.8vw
+}

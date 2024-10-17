@@ -12,6 +12,8 @@ let review2 =document.querySelector(".review2")
 let review3 =document.querySelector(".review3")
 let review4 =document.querySelector(".review4")
 
+let menubtn =document.querySelector(".navbar i")
+let hidden = document.querySelector(".hiddennav")
 
 let counter=0
 
@@ -154,3 +156,9 @@ allstars4.forEach((faStar, i) =>{
 
 })
 
+
+menubtn.addEventListener("click",() =>{
+
+    hidden.classList.remove("hide")
+
+})
