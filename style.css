@@ -75,21 +75,20 @@ a{
     border: 2px solid white;
     border-radius: 1.5rem;
 }
-.login p, .signup p{
-    font-size: 1vw;
-    color: #fff;
-}
+
 .login:hover, .signup:hover{
-    background-color: #958c8c;
-    color: #5a3e8b;
+   background-color: #958c8c;
+    /* color: #5a3e8b; */
+    color: darkblue;
 
     cursor: pointer;
 }
-.login p:hover, .signup p:hover{
+
+/* .login p:hover, .signup p:hover{
    
     color: darkblue;
     cursor: pointer;
-}
+} */
 
 .section2{
     /* padding-top: 15vh; */
@@ -119,7 +118,7 @@ a{
     position: absolute;
     width: 100%;
     transition: all 0.8s ease;
-    /* border-radius: 2rem; */
+    border-radius: 2rem;
     /* border: 2px solid #f0e5f0; */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }

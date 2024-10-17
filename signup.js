@@ -17,7 +17,6 @@ let pshow = document.querySelector(".pmatch")
 
 let passstrength = document.querySelector(".passstrength")
 
-
 let passtap= document.querySelector(".passcon input")
 
 let emailError = document.querySelector(".ematch")
